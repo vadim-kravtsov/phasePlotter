@@ -68,10 +68,6 @@ def plot_objects(ax, midnight_time, numb_of_days):
         ax.set_yticklabels(names)
 
 
-
-        # ax.axvspan(x_bins[n], x_bins[n+1], ymin=0.8, edgecolor=None, facecolor=color)#, alpha=angle)
-
-
 def main():
     time_now = datetime.datetime.now()
     timezone_delta = datetime.timedelta(hours=-13)
